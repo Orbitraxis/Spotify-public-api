@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "pages/api/spotify.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/spotify", "dest": "/pages/api/spotify.js" }
+  ]
+}
