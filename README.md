@@ -43,6 +43,6 @@ Json
     "image": "https://i.scdn.co/image/..."
   }
 ]
-🔗 Demo API
+## Demo API
 You can test it directly in your code:
 https://spotify-19rgxpxoq-sumits-projects-ca731561.vercel.app/api/spotify?query=montagem%20miau
