@@ -1,18 +1,18 @@
-Spotify Public API (Vercel)
+## Spotify Public API (Vercel)
 A lightweight Spotify Public API built using Node.js and Next.js API Routes, deployed on Vercel.
 This project acts as a wrapper around the Spotify Web API to fetch public Spotify data securely.
-🚀 Features
+## 🚀 Features
 Fetch Spotify public data (albums, artists, etc.)
 Serverless API using Vercel
 Secure handling of API credentials
 Easy to deploy and extend
 Clean and minimal codebase
-🛠 Tech Stack
+## 🛠 Tech Stack
 Node.js
 Next.js (API Routes)
 Spotify Web API
 Vercel (Serverless Deployment)
-⚙️ Setup Environment Variables
+## ⚙️ Setup Environment Variables
 Copy the example file:
 Copy code
 Bash
@@ -25,12 +25,12 @@ Copy code
 Env
 SPOTIFY_CLIENT_ID=your_client_id
 SPOTIFY_CLIENT_SECRET=your_client_secret
-📡 Usage
+## 📡 Usage
 Request albums by query:
 Copy code
 
 https://YOUR-VERCEL-DEPLOYMENT.vercel.app/api/spotify?query=summertime%20sadness
-Example of API output (short and pretty):
+## Example of API output (short and pretty):
 Copy code
 Json
 [
@@ -45,4 +45,4 @@ Json
 ]
 🔗 Demo API
 You can test it directly in your code:
-Spotify API Demo
+https://spotify-19rgxpxoq-sumits-projects-ca731561.vercel.app/api/spotify?query=montagem%20miau
